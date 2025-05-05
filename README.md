@@ -43,7 +43,7 @@
 
 ```bash
 pip install gradio soundfile torch numpy ffmpeg-python
-``` bash
+
 
 
 
