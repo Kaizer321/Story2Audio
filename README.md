@@ -42,12 +42,7 @@ pip install gradio soundfile torch numpy ffmpeg-python
 
 1. Clone or download the repository.
 2. Install the required dependencies.
-3. Navigate to the project folder in your terminal.
-4. Run the app using:
-
-```bash
-python app.py
-```
+3.Run the Notebook
 
 ## 📘 How to Use the Application
 
