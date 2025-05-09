@@ -1,0 +1,7 @@
+grpcio
+grpcio-tools
+gradio
+torch
+soundfile
+numpy
+ffmpeg-python

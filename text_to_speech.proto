@@ -1,0 +1,21 @@
+
+syntax = "proto3";
+
+package text_to_speech;
+
+// The request message containing the text input
+message NarrationRequest {
+    string text_input = 1;
+}
+
+// The response message containing the audio file path and WPM
+message NarrationResponse {
+    string audio_file = 1;
+    string text = 2;
+    float wpm = 3;
+}
+
+// The text-to-speech service definition
+service TextToSpeech {
+    rpc GenerateNarration(NarrationRequest) returns (NarrationResponse);
+}
